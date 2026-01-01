@@ -212,6 +212,66 @@ body {
   .service-img {
     width: 50px;
   }
+/* ===== SERVICES GRID FIX (FORCE) ===== */
+
+.services {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 30px !important;
+}
+
+.service-card {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 35px 25px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* ICON */
+.service-icon {
+  font-size: 64px;
+  margin-bottom: 18px;
+}
+
+/* TEXT */
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .service-icon {
+    font-size: 44px;
+  }
+}
 
   .section-title {
     font-size: 28px;
