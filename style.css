@@ -50,66 +50,83 @@ body {
 .menu a:hover {
   color: #e63946;
 }
-<!-- ================= HERO SECTION ================= -->
-<section class="hero">
-  <div class="container hero-wrap">
 
-    <!-- LEFT TEXT -->
-    <div class="hero-text">
-      <h1>
-        10 Minute Me Kapde Iron <br>
-        <span>Pickup & Delivery</span>
-      </h1>
+/* ============ HERO SECTION ============ */
+.hero {
+  background: linear-gradient(135deg, #fff3cd, #ffffff);
+  padding: 70px 0;
+}
 
-      <p>
-        Professional ironing service at your doorstep.<br>
-        Fast • Affordable • Trusted
-      </p>
+.hero-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
 
-      <div class="hero-btns">
-        <button class="btn primary">Book Pickup</button>
-        <button class="btn outline">How it Works</button>
-      </div>
+.hero-text {
+  flex: 1;
+}
 
-      <div class="trust">
-        <span>✔ Verified Partners</span>
-        <span>✔ Live Tracking</span>
-        <span>✔ Safe Handling</span>
-      </div>
-    </div>
+.hero-text h1 {
+  font-size: 38px;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
 
-    <!-- RIGHT IMAGE -->
-    <div class="hero-img">
-      <img src="images/hero.png" alt="QuickPress Hero">
-    </div>
+.hero-text h1 span {
+  color: #e63946;
+}
 
-  </div>
-</section>
-/* ============ HERO IMAGE ============ */
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+.hero-btns {
+  margin-bottom: 18px;
+}
+
+.btn {
+  padding: 13px 26px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.primary {
+  background: #e63946;
+  color: #ffffff;
+}
+
+.outline {
+  background: #ffffff;
+  color: #e63946;
+  border: 2px solid #e63946;
+  margin-left: 10px;
+}
+
+.trust span {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* HERO IMAGE */
 .hero-img {
   flex: 1;
-  text-align: center;
+  text-align: right;
 }
 
 .hero-img img {
+  width: 380px;
   max-width: 100%;
   height: auto;
 }
 
-/* ============ RESPONSIVE ============ */
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-
-  .hero-text h1 {
-    font-size: 30px;
-  }
-
-  .hero {
-    padding: 50px 0;
-  }
-}
 /* ============ SERVICES SECTION ============ */
 .services {
   padding: 80px 0;
@@ -131,16 +148,14 @@ body {
   margin-bottom: 50px;
 }
 
-/* Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
-/* Card */
 .service-card {
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #eee;
   border-radius: 14px;
   padding: 35px 25px;
@@ -150,30 +165,26 @@ body {
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* ICON SIZE – DESKTOP */
-.service-icon {
-  font-size: 56px;   /* Desktop icon size */
+.service-img {
+  width: 70px;
   margin-bottom: 18px;
 }
 
-/* Title */
 .service-card h3 {
   font-size: 20px;
   margin-bottom: 12px;
-  color: #222;
 }
 
-/* Text */
 .service-card p {
   font-size: 15px;
   color: #555;
   line-height: 1.5;
 }
 
-/* ===== RESPONSIVE ===== */
+/* ============ RESPONSIVE ============ */
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -184,48 +195,22 @@ body {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .services {
-    padding: 60px 0;
+
+  .menu {
+    display: none;
   }
 
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .service-icon {
-    font-size: 40px; /* Mobile icon size */
-  }
-
-  .section-title {
-    font-size: 28px;
-  }
-}
-/* ===== HERO MOBILE FIX ===== */
-@media (max-width: 768px) {
-
+  /* HERO MOBILE */
   .hero {
     padding: 40px 0;
-    text-align: center;
   }
 
   .hero-wrap {
     flex-direction: column;
-    gap: 25px;
-  }
-
-  .hero-text {
-    text-align: left;
   }
 
   .hero-text h1 {
     font-size: 28px;
-    line-height: 1.3;
-  }
-
-  .hero-text p {
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 20px;
   }
 
   .hero-btns {
@@ -244,17 +229,34 @@ body {
     margin-left: 0;
   }
 
-  .trust {
-    margin-top: 20px;
-  }
-
   .trust span {
     display: block;
     margin-bottom: 6px;
-    font-size: 14px;
   }
 
   .hero-img {
-    display: none; /* MOBILE par image hide */
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 240px;
+    margin-top: 20px;
+  }
+
+  /* SERVICES MOBILE */
+  .services {
+    padding: 60px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-img {
+    width: 50px;
+  }
+
+  .section-title {
+    font-size: 28px;
   }
 }
