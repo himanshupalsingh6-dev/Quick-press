@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>QuickPress</title>
+  <meta charset="UTF-8">
+  <title>QuickPress – Ironing Pickup & Delivery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="navbar">
-  <div class="nav-container">
-    <div class="logo">Quick<span>Press</span></div>
+<!-- ================= HEADER / NAVBAR ================= -->
+<header class="header">
+  <div class="container nav">
+    <div class="logo">
+      Quick<span>Press</span>
+    </div>
+
     <nav class="menu">
       <a href="#">Home</a>
       <a href="#">Services</a>
@@ -19,27 +24,35 @@
   </div>
 </header>
 
+<!-- ================= HERO SECTION ================= -->
 <section class="hero">
-  <div class="hero-wrapper">
+  <div class="container hero-wrap">
 
-    <div class="hero-content">
+    <div class="hero-text">
       <h1>
         10 Minute Me Kapde Iron <br>
         <span>Pickup & Delivery</span>
       </h1>
+
       <p>
-        Professional ironing service at your doorstep.<br>
+        Professional ironing service at your doorstep. <br>
         Fast • Affordable • Trusted
       </p>
 
-      <div class="hero-buttons">
-        <button class="btn-primary">Book Pickup</button>
-        <button class="btn-secondary">How it Works</button>
+      <div class="hero-btns">
+        <button class="btn primary">Book Pickup</button>
+        <button class="btn outline">How it Works</button>
+      </div>
+
+      <div class="trust">
+        <span>✔ Verified Partners</span>
+        <span>✔ Live Tracking</span>
+        <span>✔ Safe Handling</span>
       </div>
     </div>
 
-    <div class="hero-image">
-      <img src="images/hero.png" alt="QuickPress">
+    <div class="hero-img">
+      <img src="images/hero.png" alt="QuickPress Service">
     </div>
 
   </div>
