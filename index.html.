@@ -36,3 +36,17 @@
 
 </body>
 </html>
+<!-- NAVBAR START -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">Quick<span>Press</span></div>
+
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">How It Works</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+</header>
+<!-- NAVBAR END -->
