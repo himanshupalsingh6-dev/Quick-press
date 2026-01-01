@@ -50,7 +50,6 @@ body {
 .menu a:hover {
   color: #e63946;
 }
-
 <!-- ================= HERO SECTION ================= -->
 <section class="hero">
   <div class="container hero-wrap">
@@ -86,8 +85,6 @@ body {
 
   </div>
 </section>
-
-
 /* ============ HERO IMAGE ============ */
 .hero-img {
   flex: 1;
