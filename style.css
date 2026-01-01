@@ -217,15 +217,3 @@ body {
     font-size: 28px;
   }
 }
-/* SERVICE ICON – UPDATED SIZE */
-.service-icon {
-  font-size: 64px;   /* Desktop: thoda bada */
-  margin-bottom: 20px;
-}
-
-/* Mobile ke liye balanced */
-@media (max-width: 768px) {
-  .service-icon {
-    font-size: 44px;
-  }
-}
