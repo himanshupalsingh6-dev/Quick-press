@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuickPress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO SECTION START -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>
+      10 Minute Me Kapde Iron <br>
+      <span>Pickup & Delivery</span>
+    </h1>
+
+    <p>
+      Professional ironing service at your doorstep. <br>
+      Fast • Affordable • Trusted in your city
+    </p>
+
+    <div class="hero-buttons">
+      <button class="btn-primary">Book Pickup</button>
+      <button class="btn-secondary">How it Works</button>
+    </div>
+
+    <div class="hero-trust">
+      <span>✔ Verified Partners</span>
+      <span>✔ Live Tracking</span>
+      <span>✔ Safe Handling</span>
+    </div>
+  </div>
+</section>
+<!-- HERO SECTION END -->
+
+</body>
+</html>
