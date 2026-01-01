@@ -231,3 +231,61 @@ body {
     font-size: 28px;
   }
 }
+/* ===== HERO MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .hero-wrap {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 16px;
+  }
+
+  .outline {
+    margin-left: 0;
+  }
+
+  .trust {
+    margin-top: 20px;
+  }
+
+  .trust span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .hero-img {
+    display: none; /* MOBILE par image hide */
+  }
+}
