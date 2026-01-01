@@ -7,40 +7,9 @@
 </head>
 <body>
 
-<!-- HERO SECTION START -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>
-      10 Minute Me Kapde Iron <br>
-      <span>Pickup & Delivery</span>
-    </h1>
-
-    <p>
-      Professional ironing service at your doorstep. <br>
-      Fast • Affordable • Trusted in your city
-    </p>
-
-    <div class="hero-buttons">
-      <button class="btn-primary">Book Pickup</button>
-      <button class="btn-secondary">How it Works</button>
-    </div>
-
-    <div class="hero-trust">
-      <span>✔ Verified Partners</span>
-      <span>✔ Live Tracking</span>
-      <span>✔ Safe Handling</span>
-    </div>
-  </div>
-</section>
-<!-- HERO SECTION END -->
-
-</body>
-</html>
-<!-- NAVBAR START -->
 <header class="navbar">
   <div class="nav-container">
     <div class="logo">Quick<span>Press</span></div>
-
     <nav class="menu">
       <a href="#">Home</a>
       <a href="#">Services</a>
@@ -49,4 +18,32 @@
     </nav>
   </div>
 </header>
-<!-- NAVBAR END -->
+
+<section class="hero">
+  <div class="hero-wrapper">
+
+    <div class="hero-content">
+      <h1>
+        10 Minute Me Kapde Iron <br>
+        <span>Pickup & Delivery</span>
+      </h1>
+      <p>
+        Professional ironing service at your doorstep.<br>
+        Fast • Affordable • Trusted
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn-primary">Book Pickup</button>
+        <button class="btn-secondary">How it Works</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/hero.png" alt="QuickPress">
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
